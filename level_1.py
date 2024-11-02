@@ -9,7 +9,7 @@ def ten_to_two(decimal_num):
     while True:
         binary_num = str(decimal_num % 2) + binary_num
         decimal_num //= 2
-        if decimal_num in [1, 0]:
+        if decimal_num == 0:
             return binary_num
 
 def is_binary(arg):
